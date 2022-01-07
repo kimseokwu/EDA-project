@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'NEXON Lv1 Gothic OTF';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv1 Gothic OTF.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'S-CoreDream-9Black';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-9Black.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    position: relative; 
+    color: ivory;
+    font-family: 'NEXON Lv1 Gothic OTF';
+}
+h1, h3, p {
+    padding: 10px;
+}
+
+h1, h3 {
+    font-family: 'S-CoreDream-9Black';
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    width: 80%;
+}
+
+.page {
+    height: 572px;
+    padding-top: 60px;
+}
+
+.page-1{
+    color: white;
+    height: 512px;
+    background-color: #212529;
+}
+
+.page-2{
+    background-color: #0f5132;
+}
+
+.page-3{
+    background-color: #146c43;
+}
+
+.page-4{
+    height: auto;
+    background-color: #198754;
+}
+
+.container {
+    padding-top: 80px;
+    width: 80%;
+    text-align: center;
+}
+
+.container-body {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.card-body {
+    align-content: center;
+}
+
+#nav {
+    position: sticky;
+    z-index: 1;
+    top: 0;
+}
+
+.btn-group-vertical .btn {
+    margin: 5px;
+}
+
+#graph {
+    background-color: #212529;
+    height: 300px;
+    width: 90%;
+    margin: 0;
+    padding: 0;
+}
+
